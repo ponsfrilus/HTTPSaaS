@@ -1,0 +1,19 @@
+{
+  "name": "HTTPSaaS",
+  "version": "0.0.1",
+  "description": "HTTP Statuses As A Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "author": "Nicolas Borboën <ponsfrilus@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "tape": "^4.7.0"
+  }
+}
